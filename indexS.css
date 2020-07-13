@@ -67,14 +67,23 @@ span{
   margin-left:auto;
   margin-right: auto;
   text-align: left;
+  color: black;
   padding: 2%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.9);
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 #adButton{
 display: inline-flex;
 flex-direction: column;
 text-align: center;
+border:solid black 1px;
+border-radius: 10px;
+}
+
+#adbtn{
+  margin-left: auto;
+  margin-right: auto;
 }
 .googSearchBtn{
   border-radius: 10px;
@@ -95,6 +104,7 @@ text-align: center;
   max-height: 100vh;
   overflow-x:hidden;
   overflow-y: hidden;
+  z-index: 0;
 }
 .box-area li{
 position: absolute;
