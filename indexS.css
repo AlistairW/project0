@@ -89,8 +89,8 @@ text-align: center;
   postion: absolute;
   top:0;
   left:0;
-  width: 100%;
-  height: 100vh;
+  max-width: 100%;
+  max-height: 100vh;
   overflow-x:hidden;
   overflow-y: hidden;
 }
