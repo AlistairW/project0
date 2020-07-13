@@ -202,7 +202,7 @@ animation-delay:12.5s;
 
 /*media query for devices */
 
-@media only screen and (max-width: 370px){
+@media only screen and (max-width: 360px){
 
   .animate{
     background: linear-gradient(90deg, rgba(0,212,255,1) 7%, rgba(0,0,36,1) 100%);
