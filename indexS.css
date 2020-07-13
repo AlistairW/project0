@@ -3,8 +3,6 @@
         overflow: hidden !important;
         overflow-y: hidden;
         overflow-x: hidden;
-
-
     }
 nav > ul > li{
   display: inline;
@@ -83,10 +81,20 @@ text-align: center;
 border: solid black 1px;
 border-radius: 10px;
 }
-
+#adButton:hover{
+  border-style: inset;
+  border-width: thin;
+  border-color: white;
+}
 .googSearchBtn{
   border-radius: 10px;
   border-style: none;
+}
+.googSearchBtn:hover{
+  border-radius: 10px;
+  border-style: inset;
+  border-width: thin;
+  border-color: white;
 }
 
 .animate{
