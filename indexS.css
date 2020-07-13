@@ -80,14 +80,10 @@ span{
 display: inline-flex;
 flex-direction: column;
 text-align: center;
-border:solid black 1px;
+border: solid black 1px;
 border-radius: 10px;
 }
 
-#adbtn{
-  margin-left: auto;
-  margin-right: auto;
-}
 .googSearchBtn{
   border-radius: 10px;
   border-style: none;
@@ -118,6 +114,7 @@ height: 25px;
 background: rgba(255,255,255,0.4);
 animation: animate 20s linear infinite;
 bottom: -150px;
+z-index: 1;
 }
 .box-area li:nth-child(1){
 left:86%;
@@ -163,7 +160,7 @@ right: 80%;
 width: 120px;
 height: 120px;
 animation-delay:1s;
-animation-duration:6s; 
+animation-duration:6s;
 
 }
 .box-area li:nth-child(8){
@@ -238,7 +235,6 @@ animation-delay:12.5s;
     text-align: left;
     padding: 2%;
     background-color: rgba(255, 255, 255, 0.9);
-
   }
   h1{
     margin-bottom: 1em;
@@ -246,4 +242,8 @@ animation-delay:12.5s;
   #main{
     padding-top: 40%;
   }
+
+#adButton:hover{
+  color: 255, 119, 0, 0.8;
+}
 }
