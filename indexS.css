@@ -1,6 +1,7 @@
 * {
         margin: 0;
         overflow-y: hidden;
+        overflow-x: hidden;
 
     }
 nav > ul > li{
@@ -220,9 +221,10 @@ animation-delay:12.5s;
     height: 100vh !important;
 
   }
-  nav{
+  nav > ul {
     text-align: right;
     padding-top: 2%;
+    top:90%;
   }
   .criteria{
     margin-top: 0;
