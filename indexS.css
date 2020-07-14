@@ -258,7 +258,7 @@ animation-delay:12.5s;
 @media only screen and (max-device-width : 360px){
 
 body{
-  overflow: scroll;
+  overflow-y: scroll;
 }
   .animate{
     background: linear-gradient(90deg, rgba(0,212,255,1) 7%, rgba(0,0,36,1) 100%);
