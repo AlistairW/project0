@@ -292,11 +292,11 @@ animation-delay:12.5s;
 }
 }
 @media only screen and (max-device-width : 640px){
-  body{
-    overflow-y: scroll;
-  }
+
   #main{
     padding-top: 20%;
+    overflow-y: scroll;
+    scroll-direction: verticle;
   }
 
 }
