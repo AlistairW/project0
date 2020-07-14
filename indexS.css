@@ -255,7 +255,7 @@ animation-delay:12.5s;
   color: 255, 119, 0, 0.8;
 }
 }
-@media only screen and (max-device-width : 640px){
+@media only screen and (max-device-width : 360px){
 
 body{
   overflow: scroll;
